@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './components/Header';
+import Header from "./components/Header";
 import  { useState, useEffect } from 'react';
 import Search from './components/Search';
 import Action from './components/Action';
@@ -32,7 +32,7 @@ function App() {
     <>
     <Header />
     <h1 className='hh'>Latest and Trending</h1>
-    <div className='monero'>
+    <div className='soon'>
    
       {
       movies.map((item,index)=>{
