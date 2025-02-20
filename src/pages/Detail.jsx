@@ -23,9 +23,7 @@ console.log(clickMovie.backdrop_path)
         <div className="hero" style={{backgroundImage:`url(https://image.tmdb.org/t/p/original${clickMovie.backdrop_path})`, height: '600px', backgroundPosition: 'center', backgroundSize: 'cover'}}>
 
         </div>
-    
         <More />
-        
         <Other />
         <Footer />
         </>
