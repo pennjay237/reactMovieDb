@@ -1,7 +1,7 @@
 import  { useState, useEffect } from 'react';
 
 
-function Action (){
+function Action ({redirectToDetail}){
   const [movies, setMovies] = useState([]);
 
 useEffect(() => {
@@ -32,7 +32,7 @@ return (
          
         <div className="move" key={index}>
 
-        <img src={`https://media.themoviedb.org/t/p/w300_and_h450_bestv2${item.backdrop_path}`} alt="" className='item' />
+        <img src={`https://media.themoviedb.org/t/p/w300_and_h450_bestv2${item.backdrop_path}`} alt="" onClick={()=>redirectToDetail(item)} className='item' />
        
         </div>
 

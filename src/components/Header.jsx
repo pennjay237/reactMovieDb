@@ -2,8 +2,8 @@ export default function Header() {
     return (
       <>
         <div className="header">
-          <div className="head">
-            <div className="name">
+          <div className="navbar">
+            <div className="logo">
               <svg
                 width="93"
                 height="15"
@@ -31,7 +31,7 @@ export default function Header() {
                 />
               </svg>
             </div>
-            <nav className="hms">
+            <nav className="nav-links">
               <ul>
                 <li>
                   <a href="">Home</a>
@@ -50,8 +50,8 @@ export default function Header() {
                 </li>
               </ul>
             </nav>
-            <div className="sone">
-              <div className="bad">
+            <div className="search-profile">
+              <div className="">
                 <input
                   type="text"
                   value=""
