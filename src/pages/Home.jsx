@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Trending from "../components/TrendingMovies";
 import { MovieContext } from "../context/context";
 import { useNavigate } from "react-router";
+import Navbar from "../components/Navbar";
 
 
 

@@ -4,6 +4,7 @@ import './App.css';
 import  { MovieContextData, } from './context/context';
 import Detail from "./pages/Detail";
 
+
 function App() {
  
 

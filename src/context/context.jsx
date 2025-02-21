@@ -6,8 +6,9 @@ export const MovieContext= createContext();
 
 export const MovieContextData=({children})=>{
     const [clickMovie, setClickMovie] = useState(null);
+    const [saveResults, setSaveResults] = useState("")
     return(
-        <MovieContext.Provider value= {{clickMovie, setClickMovie}}>
+        <MovieContext.Provider value= {{clickMovie, setClickMovie, saveResults, setSaveResults}}>
             {children}
         </MovieContext.Provider>
     );
