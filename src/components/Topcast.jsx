@@ -3,6 +3,7 @@ import  { useState, useEffect } from 'react';
 export default function Topcasts() {
   return (
     <>
+    <div className='tc'><h1>Top Cast</h1></div>
     <div className="bar">
         <div className="same">
             <img src="https://s3-alpha-sig.figma.com/img/27fe/f004/d5061280211badb97d6c6538b9c51ab7?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=gAqZBWRNVB~ThD3P56ibZg5F8H75Lf3MvMg5iQfMGoZFSHm~00rzbKuFINBLVxRryH9AB58oYZxGx0SlvWs38fd1KjhWLf~TdMB~d9lPhVNBiFwRQuPBpgzwLnfbVLHDsmT~hx1S1MWxguyA8Wrv8ODgxFR5ymc-E0nZAunEegBUfUwqh~C3HlIbRMaObEKEXOX3hJCL~0QnEfqL-hCPbkl1yYwkzjJbxM6uBqkzVbpJv1s9mkg8emRwJjO7zYYybtqboKx5TCujl9dZU78WdYtfUqQ-jt69IqRPMyILlJxxv1hVxtbmKLlEszy7P9QOwFIEa7P26ZEt3SNqbqCfdQ__" alt="" />

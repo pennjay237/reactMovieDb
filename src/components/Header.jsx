@@ -44,7 +44,7 @@ export default function Header() {
                   </svg>
                   Watch Now
                 </button>
-                <button className="but">
+                <button className="trans">
                   <svg
                     width="20"
                     height="21"

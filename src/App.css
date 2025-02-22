@@ -132,8 +132,9 @@ ul li a {
     border-radius: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
+    align-items: center;
+    justify-content:left;
+    padding-right: 15px;
   }
 
 .imgs {
@@ -233,6 +234,12 @@ ul li a {
   padding-top: 1rem;
   gap: 1rem;
   text-align: center;
+}
+
+.tc{
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 15px;
 }
 
 .a {
@@ -402,10 +409,9 @@ img {
 width: 30px;
 height: 30px;
 border-radius: 50%;
-
 }
 
-input {
+input {                                                                                                         
   padding: 0.5rem;
   border-radius: 20px;
   background-color: transparent;
@@ -461,10 +467,40 @@ input {
 }
 
 
-.but{
-  background-color: #8524241a  20%;
+.trans{
+  background-color:#02010159;
+  color: white;
+  font-size: 19px;
 }
+.ton{
+  font-size: 18px;
+}
+
 
 .btn{
   font: 15px;
 }
+
+
+
+.info {
+  margin-top: 45px;
+   margin-right: -40px;
+   
+ }
+ 
+ .pic{
+   display: flex;
+   
+ }
+ 
+ .num {
+   width: 120px;
+   height: 40px;
+ }
+ 
+ .mum {
+   width: 160px;
+   height: 110px;
+   margin-top: -33px;
+ }
